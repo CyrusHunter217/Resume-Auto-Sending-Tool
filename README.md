@@ -2,6 +2,8 @@
 
 一个基于 Python 和 DeepSeek API 的自动化求职工具，支持自动搜索岗位、生成定制简历、自动投递等功能。
 
+> **开发者注意**：开发前请先阅读 [DEVELOPMENT_STANDARDS.md](DEVELOPMENT_STANDARDS.md) 了解开发标准和代码规范。
+
 ## 功能特点
 
 1. **初始化配置**
