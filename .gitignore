@@ -25,10 +25,14 @@ wheels/
 
 # 配置文件（包含敏感信息）
 config.json
+api_config.json
 
 # 数据文件
 application_records.json
+application_records.xlsx
 resume_cache.txt
+*.log
+*.txt
 
 # IDE
 .vscode/
@@ -40,12 +44,12 @@ resume_cache.txt
 # 系统文件
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# 日志文件
-*.log
+# Chrome相关
+chromedriver.exe
+chromedriver
+*.crx
 
 # 临时文件
 *.tmp
 *.temp
-

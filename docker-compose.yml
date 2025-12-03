@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  api-proxy:
+    build: .
+    container_name: api-proxy-server
+    ports:
+      - "5000:5000"
+    environment:
+      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY}
+      - SERVER_API_KEY=${SERVER_API_KEY}
+      - PORT=5000
+    restart: unless-stopped
+    volumes:
+      - ./logs:/app/logs  # 日志目录（可选）
+
