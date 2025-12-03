@@ -1,0 +1,26 @@
+# 自动处理行尾
+* text=auto
+
+# 明确声明你希望始终规范化并在检出时转换为本机行尾的文件
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# 声明始终具有CRLF行尾的文件
+*.bat text eol=crlf
+
+# 二进制文件
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+
